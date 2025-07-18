@@ -86,6 +86,254 @@ DynaVest operates as a **unified DeFi Agent** that seamlessly bridges multiple e
 - Agent: Analyzes Polkadot + EVM opportunities
 - Result: Balanced portfolio with maximum yields
 
+## 🚀 User Flow
+
+### 🎯 **Complete User Journey**
+
+DynaVest provides a seamless experience from onboarding to advanced DeFi strategy management:
+
+```
+                           🚀 DynaVest User Flow
+                                     
+                          ┌─────────────────────┐
+                          │   🚀 User Opens     │
+                          │     DynaVest        │
+                          └──────────┬──────────┘
+                                     │
+                          ┌─────────────────────┐
+                          │   🔐 Connect        │
+                          │     Wallet          │
+                          └──────────┬──────────┘
+                                     │
+                          ┌─────────────────────┐
+                          │   Authentication    │
+                          │      Method?        │
+                          └─────┬─────────┬─────┘
+                                │         │
+                      Google/Email│         │Wallet
+                                │         │
+                    ┌─────────────┴─┐   ┌─┴─────────────┐
+                    │  🔑 Privy     │   │  🔗 Wallet    │
+                    │     Auth      │   │   Connect     │
+                    └─────────────┬─┘   └─┬─────────────┘
+                                  │       │
+                                  └───┬───┘
+                                      │
+                          ┌─────────────────────┐
+                          │  ⚡ Smart Wallet    │
+                          │     Created         │
+                          └──────────┬──────────┘
+                                     │
+                          ┌─────────────────────┐
+                          │  💰 Portfolio       │
+                          │    Discovery        │
+                          └──────────┬──────────┘
+                                     │
+                          ┌─────────────────────┐
+                          │  📊 Cross-Chain     │
+                          │      Scan           │
+                          └──────────┬──────────┘
+                                     │
+                          ┌─────────────────────┐
+                          │  💎 Asset           │
+                          │   Aggregation       │
+                          └──────────┬──────────┘
+                                     │
+                          ┌─────────────────────┐
+                          │  🎯 Risk            │
+                          │   Assessment        │
+                          └──────────┬──────────┘
+                                     │
+                          ┌─────────────────────┐
+                          │  🤖 AI Chat         │
+                          │   Interface         │
+                          └──────────┬──────────┘
+                                     │
+                          ┌─────────────────────┐
+                          │    User Input?      │
+                          │                     │
+                          └─┬─────────┬─────────┬─┘
+                            │         │         │
+                "Find yield"│         │"Show    │"Best staking"
+                            │         │portfolio"│
+                ┌─────────────┴─┐ ┌─────┴─────┐ ┌─┴─────────────┐
+                │ 🔍 Strategy   │ │ 📈 Portfolio│ │ 💰 Staking    │
+                │   Discovery   │ │    View     │ │   Analysis    │
+                └─────────────┬─┘ └─────┬─────┘ └─┬─────────────┘
+                              │         │         │
+                              └────┬────┘         │
+                                   │              │
+                                   └──────┬───────┘
+                                          │
+                              ┌─────────────────────┐
+                              │  📋 Strategy List   │
+                              │                     │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  🎯 Strategy        │
+                              │    Selection        │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  📊 Risk & APY      │
+                              │     Analysis        │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  💵 Investment      │
+                              │     Amount          │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  ⚡ One-Click       │
+                              │    Execution        │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  🔄 Multi-Protocol  │
+                              │   Interaction       │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  🌐 Cross-Chain     │
+                              │   Deployment        │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  💾 Save to ink!    │
+                              │    Contract         │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  📈 Real-Time       │
+                              │   Monitoring        │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  🔔 Performance     │
+                              │     Updates         │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  🎯 Rebalancing     │
+                              │     Alerts          │
+                              └──────────┬──────────┘
+                                         │
+                              ┌─────────────────────┐
+                              │  📊 Portfolio       │
+                              │    Analytics        │
+                              └──────────┬──────────┘
+                                         │
+                                         │
+                              ┌──────────┴──────────┐
+                              │    Return to AI     │
+                              │   Chat Interface    │
+                              └─────────────────────┘
+                                         │
+                                         │
+                              ┌─────────────────────┐
+                              │   🔄 Continuous     │
+                              │    Optimization     │
+                              └─────────────────────┘
+```
+
+### 🎮 **Step-by-Step Walkthrough**
+
+#### **Step 1: Connect & Authenticate** 🔐
+```typescript
+// User clicks "Connect Wallet"
+1. Choose authentication method (Google, Email, or Wallet)
+2. Privy handles secure authentication
+3. ZeroDev creates smart wallet automatically
+4. Account abstraction enabled for gasless transactions
+```
+
+#### **Step 2: Discover Assets** 💰
+```typescript
+// Automatic cross-chain asset discovery
+1. Scan connected wallet across all supported chains
+2. Aggregate balances from Arbitrum, Base, BSC, Polygon, Celo
+3. Display unified portfolio view
+4. Calculate total portfolio value and allocation
+```
+
+#### **Step 3: AI-Powered Strategy Discovery** 🤖
+```typescript
+// Natural language interaction
+User: "I want to earn yield on my USDC with low risk"
+AI: "I found 3 strategies matching your criteria:
+     • AAVE Supply (5.2% APY, Risk Level 2)
+     • Morpho Optimization (6.8% APY, Risk Level 3)
+     • Bifrost Liquid Staking (10.87% APY, Risk Level 4)"
+```
+
+#### **Step 4: Strategy Exploration** 📊
+```typescript
+// Browse and compare strategies
+1. View strategy cards with key metrics
+2. Compare APY, risk levels, and protocols
+3. See cross-chain opportunities via Hyperbridge
+4. Access detailed strategy information
+```
+
+#### **Step 5: One-Click Investment** ⚡
+```typescript
+// Simplified investment flow
+1. Select strategy amount
+2. Review transaction details
+3. Click "Invest" (gasless via account abstraction)
+4. Strategy executes across multiple protocols
+5. Receive confirmation and tracking info
+```
+
+#### **Step 6: Strategy Persistence** 💾
+```typescript
+// Save to Polkadot/Moonbeam
+1. Strategy data saved to ink! smart contract
+2. Immutable storage on Polkadot network
+3. Cross-chain accessibility
+4. Event-driven updates
+```
+
+#### **Step 7: Portfolio Management** 📈
+```typescript
+// Ongoing monitoring and optimization
+1. Real-time balance updates
+2. P&L tracking across all strategies
+3. Performance analytics and insights
+4. Automated rebalancing notifications
+```
+
+### 🌟 **Key User Experience Features**
+
+| Feature | Description | Benefit |
+|---------|-------------|---------|
+| **🔐 Seamless Auth** | Google/Email/Wallet login via Privy | No complex wallet setup |
+| **⚡ Gasless Transactions** | Account abstraction via ZeroDev | No gas fees for users |
+| **🤖 AI Chat Interface** | Natural language strategy discovery | Intuitive interaction |
+| **🌐 Cross-Chain View** | Unified portfolio across all chains | Single dashboard |
+| **📱 Mobile-First** | Responsive design for all devices | Use anywhere |
+| **💾 Strategy Persistence** | ink! smart contract storage | Permanent strategy history |
+| **🔄 Real-Time Updates** | Live balance and performance tracking | Always current |
+
+### 📱 **Mobile Experience**
+
+DynaVest is designed mobile-first with:
+- **Touch-optimized interface** for easy navigation
+- **Bottom navigation** for quick access to main features
+- **Swipe gestures** for strategy browsing
+- **Progressive Web App** capabilities
+- **Offline strategy viewing** for saved strategies
+
+### 🛡️ **Security & Trust**
+
+- **Non-custodial**: Users always control their funds
+- **Smart contract audited**: ink! contracts follow best practices
+- **Account abstraction**: Enhanced security via ZeroDev
+- **Multi-chain safety**: Risk assessment across all protocols
+- **Transparent operations**: All transactions visible on-chain
+
 ## 🎉 Project Status: 100% Complete ✅
 
 **DynaVest is production-ready** with full functionality implemented and deployed:
