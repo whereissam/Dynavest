@@ -56,6 +56,6 @@ src/generated/prisma/
 *.pdb
 
 dynavest_backend/
-dynavest_shuttle/
+dynavest-shuttle/
 
 docs/
